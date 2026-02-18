@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3
+class ComposerStaticInit9ea076f2a83fb69ed359d65940b9b658
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -2461,6 +2461,7 @@ class ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3
         'Illuminate\\Filesystem\\FilesystemServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php',
         'Illuminate\\Filesystem\\LocalFilesystemAdapter' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Filesystem/LocalFilesystemAdapter.php',
         'Illuminate\\Filesystem\\LockableFile' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Filesystem/LockableFile.php',
+        'Illuminate\\Filesystem\\ReceiveFile' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Filesystem/ReceiveFile.php',
         'Illuminate\\Filesystem\\ServeFile' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Filesystem/ServeFile.php',
         'Illuminate\\Foundation\\AliasLoader' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/AliasLoader.php',
         'Illuminate\\Foundation\\Application' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Application.php',
@@ -3463,6 +3464,14 @@ class ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3
         'Laravel\\Mcp\\Server\\Annotations\\Audience' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Annotations/Audience.php',
         'Laravel\\Mcp\\Server\\Annotations\\LastModified' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Annotations/LastModified.php',
         'Laravel\\Mcp\\Server\\Annotations\\Priority' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Annotations/Priority.php',
+        'Laravel\\Mcp\\Server\\Attributes\\Description' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Attributes/Description.php',
+        'Laravel\\Mcp\\Server\\Attributes\\Instructions' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Attributes/Instructions.php',
+        'Laravel\\Mcp\\Server\\Attributes\\MimeType' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Attributes/MimeType.php',
+        'Laravel\\Mcp\\Server\\Attributes\\Name' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Attributes/Name.php',
+        'Laravel\\Mcp\\Server\\Attributes\\ServerAttribute' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Attributes/ServerAttribute.php',
+        'Laravel\\Mcp\\Server\\Attributes\\Title' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Attributes/Title.php',
+        'Laravel\\Mcp\\Server\\Attributes\\Uri' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Attributes/Uri.php',
+        'Laravel\\Mcp\\Server\\Attributes\\Version' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Attributes/Version.php',
         'Laravel\\Mcp\\Server\\Completions\\ArrayCompletionResponse' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Completions/ArrayCompletionResponse.php',
         'Laravel\\Mcp\\Server\\Completions\\CompletionHelper' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Completions/CompletionHelper.php',
         'Laravel\\Mcp\\Server\\Completions\\CompletionResponse' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Completions/CompletionResponse.php',
@@ -3471,6 +3480,7 @@ class ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3
         'Laravel\\Mcp\\Server\\Concerns\\HasAnnotations' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Concerns/HasAnnotations.php',
         'Laravel\\Mcp\\Server\\Concerns\\HasMeta' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Concerns/HasMeta.php',
         'Laravel\\Mcp\\Server\\Concerns\\HasStructuredContent' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Concerns/HasStructuredContent.php',
+        'Laravel\\Mcp\\Server\\Concerns\\ReadsAttributes' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Concerns/ReadsAttributes.php',
         'Laravel\\Mcp\\Server\\Content\\Blob' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Content/Blob.php',
         'Laravel\\Mcp\\Server\\Content\\Notification' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Content/Notification.php',
         'Laravel\\Mcp\\Server\\Content\\Text' => __DIR__ . '/..' . '/laravel/mcp/src/Server/Content/Text.php',
@@ -5622,6 +5632,7 @@ class ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3
         'PHPUnit\\TextUI\\Output\\Default\\ProgressPrinter\\TestPreparedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/Output/Default/ProgressPrinter/Subscriber/TestPreparedSubscriber.php',
         'PHPUnit\\TextUI\\Output\\Default\\ProgressPrinter\\TestRunnerExecutionStartedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/Output/Default/ProgressPrinter/Subscriber/TestRunnerExecutionStartedSubscriber.php',
         'PHPUnit\\TextUI\\Output\\Default\\ProgressPrinter\\TestSkippedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/Output/Default/ProgressPrinter/Subscriber/TestSkippedSubscriber.php',
+        'PHPUnit\\TextUI\\Output\\Default\\ProgressPrinter\\TestSuiteSkippedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/Output/Default/ProgressPrinter/Subscriber/TestSuiteSkippedSubscriber.php',
         'PHPUnit\\TextUI\\Output\\Default\\ProgressPrinter\\TestTriggeredDeprecationSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/Output/Default/ProgressPrinter/Subscriber/TestTriggeredDeprecationSubscriber.php',
         'PHPUnit\\TextUI\\Output\\Default\\ProgressPrinter\\TestTriggeredErrorSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/Output/Default/ProgressPrinter/Subscriber/TestTriggeredErrorSubscriber.php',
         'PHPUnit\\TextUI\\Output\\Default\\ProgressPrinter\\TestTriggeredNoticeSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/Output/Default/ProgressPrinter/Subscriber/TestTriggeredNoticeSubscriber.php',
@@ -8521,9 +8532,9 @@ class ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9ea076f2a83fb69ed359d65940b9b658::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9ea076f2a83fb69ed359d65940b9b658::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit9ea076f2a83fb69ed359d65940b9b658::$classMap;
 
         }, null, ClassLoader::class);
     }
